@@ -13,14 +13,103 @@
 
 <body class="h-screen bg-gray-300 font-sans">
     <nav class="bg-black text-white">
-        <div>
-            <a href="#">Tâm Hoàng</a>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">MEGA</a></li>
-                <li><a href="#">DROPDOWN</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">ABOUT</a></li>
+        <div class="max-w-7xl flex justify-between items-center mx-auto relative">
+            <a href="#" class="font-bold text-3xl">Tâm Hoàng</a>
+            <ul class="flex font-semibold">
+                <li><a href="#" class="menu-item">HOME</a></li>
+                <li class="group"><a href="#" class="menu-item group-hover:border-white">MEGA</a>
+                    <!-- MEGA MENU  -->
+                    <div
+                        class="grid grid-cols-4 w-full p-5 absolute top-full left-0 bg-black -mt-0.5 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-300">
+                        <ul class="p-2">
+                            <li><a href="#" class="mega-sub-item-title">Product Category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                        </ul>
+                        <ul class="p-2">
+                            <li><a href="#" class="mega-sub-item-title">Product Category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                        </ul>
+                        <ul class="p-2">
+                            <li><a href="#" class="mega-sub-item-title">Product Category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                        </ul>
+                        <ul class="p-2">
+                            <li><a href="#" class="mega-sub-item-title">Product Category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                            <li><a href="#" class="mega-sub-item">Sub category</a></li>
+                        </ul>
+                        <img src="./static/images/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
+                        <img src="./static/images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                        <img src="./static/images/JBLHorizon_001_dvHAMaster.png" alt="">
+                        <img src="./static/images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png"
+                            alt="">
+                    </div>
+                    <!-- END MEGA MENU -->
+
+
+                </li>
+                <li class="relative group"><a href="#" class="menu-item group-hover:border-white">DROPDOWN</a>
+
+                    <!-- Dropdown menu content  -->
+                    <ul
+                        class="absolute left-0 bg-black w-max -mt-0.5 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all duration-300">
+                        <li><a href="#" class="menu-sub-item">Dropdown menu</a></li>
+                        <li class="relative group sub-dropdown"><a href="#" class="menu-sub-item">Dropdown menu</a>
+                            <!-- SUB DROPDOWN MENU  -->
+                            <ul
+                                class="sub-dropdown-content absolute left-full top-0 bg-black w-max opacity-0 invisible transition-all duration-300">
+                                <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                                <li class="relative group sub-dropdown"><a href="#" class="menu-sub-item">Sub dropdonw
+                                        menu 2</a>
+
+                                    <!-- SUB DROPDOWN MENU  -->
+                                    <ul
+                                        class="sub-dropdown-content absolute left-full top-0 bg-black w-max opacity-0 invisible transition-all duration-300">
+                                        <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                                        <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                                        <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                                        <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                                        <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                                    </ul>
+                                    <!-- END SUB DROPDOWN MENU  -->
+
+                                </li>
+                                <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                                <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                                <li><a href="#" class="menu-sub-item">Sub dropdonw menu</a></li>
+                            </ul>
+                            <!-- END SUB DROPDOWN MENU  -->
+
+
+                        </li>
+                        <li><a href="#" class="menu-sub-item">Dropdown menu</a></li>
+                        <li><a href="#" class="menu-sub-item">Dropdown menu</a></li>
+                        <li><a href="#" class="menu-sub-item">Dropdown menu</a></li>
+                    </ul>
+
+                    <!-- End Dropdown menu content  -->
+
+
+
+
+                </li>
+                <li><a href="#" class="menu-item">BLOG</a></li>
+                <li><a href="#" class="menu-item">ABOUT</a></li>
+            </ul>
+            <ul class="flex font-semibold">
+                <li><a href="#" class="menu-item">ACOUNT</a></li>
+                <li><a href="#" class="menu-item">CART</a></li>
             </ul>
         </div>
     </nav>
